@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD ["python", "multi_tool.py"]
 
 # Build command
-# docker build -t multi-tool-app .
+# docker build -t IMAGE NAME .
 
 # Run program
-# docker run -it multi-tool-app .
+# docker run -it IMAGE NAME
